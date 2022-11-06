@@ -11,8 +11,8 @@ chmod a+rx ~/.bin/repo
 ```
 To initialize your local repository using the Robocon trees, use these commands:
 ```bash
-mkdir Robocon_23
-cd Robocon_23
+mkdir ~/Robocon_23
+cd ~/Robocon_23
 repo init -u git@github.com:MIA-Robotics-Robocon/robocon23_manifest.git -b main
 ```
 Then to sync up:
@@ -22,4 +22,8 @@ repo sync
 Finally type:
 ```bash
 repo start main --all
+```
+Bash setup
+```bash
+echo "source $HOME/Robocon23/robocon_ws/" >> ~/.bashrc
 ```
