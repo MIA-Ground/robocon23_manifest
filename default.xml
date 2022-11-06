@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote  name="private"
+           fetch="ssh://git@github.com/"
+           revision="main"/>
+  <remote  name="github"
+           fetch="ssh://git@github.com/MIA-Robotics-Robocon/"
+           revision="main"/>
+           
+  <project path="robocon_ws" name="robocon_robocon-ws" remote="github" />
+  <project path="libraries" name="robocon_libraries" remote="github" />
+  <project path="computer_vision" name="computer-vision" remote="github" />
+  <project path="robocon_ws/src/localization" name="localization" remote="github" />
+  <project path="robocon_ws/src/control" name="control" remote="github" />
+  <project path="low_level/localization" name="low-level=localization" remote="github" />
+  <project path="low_level/control" name="low-level_control" remote="github" />
+  
+</manifest>
