@@ -10,10 +10,10 @@
            
   <project path="robocon_ws" name="robocon_robocon-ws" remote="github" />
   <project path="libraries" name="robocon_libraries" remote="github" />
-  <project path="computer_vision" name="computer-vision" remote="github" />
-  <project path="robocon_ws/src/localization" name="localization" remote="github" />
-  <project path="robocon_ws/src/control" name="control" remote="github" />
-  <project path="low_level/localization" name="low-level=localization" remote="github" />
-  <project path="low_level/control" name="low-level_control" remote="github" />
+  <project path="computer_vision" name="robocon23_computer-vision" remote="github" />
+  <project path="robocon_ws/src/localization" name="robocon23_localization" remote="github" />
+  <project path="robocon_ws/src/control" name="robocon23_control" remote="github" />
+  <project path="low_level/localization" name="robocon23_low-level-localization" remote="github" />
+  <project path="low_level/control" name="robocon23_low-level_control" remote="github" />
   
 </manifest>
