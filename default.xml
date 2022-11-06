@@ -15,5 +15,6 @@
   <project path="robocon_ws/src/control" name="robocon23_control" remote="github" />
   <project path="low_level/localization" name="robocon23_low-level_localization" remote="github" />
   <project path="low_level/control" name="robocon23_low-level_control" remote="github" />
+  <project path="hardware" name="robocon23_hardware" remote="github" />
   
 </manifest>
